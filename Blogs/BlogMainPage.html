@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Interactive Media,Blog,Theory,Main,Page,Summary">
-        <meta name="revised" content="WSOA Blog Main Page, 2020/03/16/">
-        <meta name="author" content="Ryan Ka Kit Leong">
-        <meta name="description" content="Main Page containing a list of summaries for theoretical blog posts">
-        <meta name="viewport" content="width=device-width", initial-scale=1>
-        <meta http-equiv="refresh" content="30">
-        <title>Blog Main Page.</title>                 
+    <head> 
+        <section id="meta data">
+            <meta charset="UTF-8">
+            <meta name="keywords" content="Interactive Media,Blog,Theory,Main,Page,Summary">
+            <meta name="revised" content="WSOA Blog Main Page, 2020/03/16/">
+            <meta name="author" content="Ryan Ka Kit Leong">
+            <meta name="description" content="Main Page containing a list of summaries for theoretical blog posts">
+            <meta name="viewport" content="width=device-width", initial-scale=1>
+            <meta http-equiv="refresh" content="30">
+            <title>Blog Main Page.</title>   
+        </section>
+
+        <section id="External Files">
+            <link rel="stylesheet" href="../Styling/style.css" title="Style Guide" type="text/css">
+        </section>
     </head>
+
+    <body>
         <header>
             <h1>
                 Blog Main Page
             </h1>
             
-            <p>
+            <h2>
                 Theory
-            </p>
+            </h2>
             
-            <nav>
-                <h2>
+            <nav id="Navigation Bar">
+                <p class="NavTitle">
                     Navigation
-                </h2>
-
+                </p>
+    
                 <ul>
-                    <li><a href="../Index.html">Home</a></li>
-                    <li><a href="./BlogMainPage.html">Theory Blog Posts</a></li>
-                    <li><a href="./BlogIndex.html">Theory Archive</a></li>
-                    <li><a href="../Hobby/MainPage.html">Hobby Blog Posts</a></li>
-                    <li><a href="../Hobby/index.html">Hobby Archive</a></li>
-                    <li><a href="../Profile/index.html">Authour Profile</a></li>
+                    <li><a class="active" href="../Index.html">Home</a></li>
+                    <li><a class="active" href="./BlogMainPage.html">Theory Blog Posts</a></li>
+                    <li><a class="active" href="./BlogIndex.html">Theory Archive</a></li>
+                    <li><a class="active" href="../Hobby/MainPage.html">Hobby Blog Posts</a></li>
+                    <li><a class="active" href="../Hobby/index.html">Hobby Archive</a></li>
+                    <li><a class="active" href="../Profile/index.html">Profiles</a></li>
+    
+                    <li><button name="Back Button" onclick="history.back()">Back</button></li>
                 </ul>
-
-                <button name="Back Button" onclick="history.back()">Back</button>
             </nav>
         </header>
 
@@ -43,6 +51,7 @@
             </h2>
 
             <article
+                class="acontent"
                 id="Reflection on The Library of Babel Summary"
                 data-index-number="TS1"
                 data-category="Theory Blog Posts"
@@ -70,6 +79,7 @@
             
 
             <article
+                class="acontent"
                 id="Reflection on Browser Wars Summary"
                 data-index-number="TS2"
                 data-category="Theory Blog Posts"
@@ -101,7 +111,8 @@
             </article>
             
 
-            <article
+            <article    
+                class="acontent"
                 id="Reflection on Message is the medium Summary"
                 data-index-number="TS3"
                 data-category="Theory Blog Posts"
@@ -127,6 +138,7 @@
             </article>
 
             <article
+                class="acontent"
                 id="Semantic Markup Summary"
                 data-index-number="TS4"
                 data-category="Theory Blog Posts"
@@ -144,18 +156,19 @@
                     <br>
                     This article explains what Semantic Markup is, how it works and why it is important.  
                 </p>
+                
+                <aside>
+                    by Ryan Ka Kit Leong 
+                    <br>
+                    <a href="SemanticArticle.html">Read Full Article</a>
+                </aside>
 
             </article>
 
-            <aside>
-                by Ryan Ka Kit Leong 
-
-                <br>
-
-                <a href="SemanticArticle.html">Read Full Article</a>
-            </aside>
+            
             
             <article
+                class="acontent"
                 id="Hypertext influence Summary"
                 data-index-number="TS5"
                 data-category="Theory Blog Posts"

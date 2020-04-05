@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Interactive Media,Blog,Hobby,Gundam,Gunpla, Main Page,Summaries">
-        <meta name="revised" content="WSOA Blog Hobby Main Page, 2020/03/29/">
-        <meta name="author" content="Ryan Ka Kit Leong">
-        <meta name="description" content="Main Page containing summaries of Blog Posts">
-        <meta name="viewport" content="width=device-width", initial-scale=1>
-        <meta http-equiv="refresh" content="30">
-        <title>Hobby Main Page</title>                 
+        <section id="meta data">
+            <meta charset="UTF-8">
+            <meta name="keywords" content="Interactive Media,Blog,Hobby,Gundam,Gunpla, Main Page,Summaries">
+            <meta name="revised" content="WSOA Blog Hobby Main Page, 2020/03/29/">
+            <meta name="author" content="Ryan Ka Kit Leong">
+            <meta name="description" content="Main Page containing summaries of Blog Posts">
+            <meta name="viewport" content="width=device-width", initial-scale=1>
+            <meta http-equiv="refresh" content="30">
+            <title>Hobby Main Page</title>
+        </section>
+
+        <section id="External Files">
+            <link rel="stylesheet" href="../Styling/style.css" title="Style Guide" type="text/css">
+        </section>
     </head>
     <body>
         <h1>
             Hobby Main Page
         </h1>
         
-        <nav>
-            <h2>
-                    Navigation
-            </h2>
+        <nav id="Navigation Bar">
+            <p class="NavTitle">
+                Navigation
+            </p>
 
             <ul>
-                    <li><a href="../Index.html">Home</a></li>
-                    <li><a href="../Blogs/BlogMainPage.html">Theory Blog Posts</a></li>
-                    <li><a href="../Blogs/BlogIndex.html">Theory Archive</a></li>
-                    <li><a href="./MainPage.html">Hobby Blog Posts</a></li>
-                    <li><a href="./index.html">Hobby Archive</a></li>
-                    <li><a href="../Profile/index.html">Authour Profile</a></li>
-            </ul>
+                <li><a class="active" href="../Index.html">Home</a></li>
+                <li><a class="active" href="../Blogs/BlogMainPage.html">Theory Blog Posts</a></li>
+                <li><a class="active" href="../Blogs/BlogIndex.html">Theory Archive</a></li>
+                <li><a class="active" href="./MainPage.html">Hobby Blog Posts</a></li>
+                <li><a class="active" href="./index.html">Hobby Archive</a></li>
+                <li><a class="active" href="../Profile/index.html">Profiles</a></li>
 
-            <button name="Back Button" onclick="history.back()">Back</button>
+                <li><button name="Back Button" onclick="history.back()">Back</button></li>
+            </ul>
         </nav>
 
         <h2>
@@ -37,6 +43,7 @@
         </h2>
 
         <article
+                class="acontent"
                 id="Current state"
                 data-index-number="HS1"
                 data-category="Hobby Blog Posts"
@@ -63,6 +70,7 @@
         </article>  
         
         <article
+                class="acontent"
                 id="Crossbone Gundam Review"
                 data-index-number="HS2"
                 data-category="Hobby Blog Posts"

@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Interactive Media,Blog,Theory,Semantic Markup">
-        <meta name="revised" content="WSOA Blog HypertextArticle, 2020/03/16/">
-        <meta name="author" content="Ryan Ka Kit Leong">
-        <meta name="description" content="An article on how hypertext works and its possible effects">
-        <meta name="viewport" content="width=device-width", initial-scale=1>
-        <meta http-equiv="refresh" content="30">
-        <title>Hypertext and its influence on the World Wide Web.</title>                 
+        <section id="meta data">
+            <meta charset="UTF-8">
+            <meta name="keywords" content="Interactive Media,Blog,Theory,Semantic Markup">
+            <meta name="revised" content="WSOA Blog HypertextArticle, 2020/03/16/">
+            <meta name="author" content="Ryan Ka Kit Leong">
+            <meta name="description" content="An article on how hypertext works and its possible effects">
+            <meta name="viewport" content="width=device-width", initial-scale=1>
+            <meta http-equiv="refresh" content="30">
+            <title>Hypertext and its influence on the World Wide Web.</title>
+        </section>
+
+        <section id="External Files">
+            <link rel="stylesheet" href="../Styling/style.css" title="Style Guide" type="text/css">
+        </section>
     </head>
 
     <body>
@@ -17,26 +23,27 @@
                 Hypertext and its influence on the World Wide Web.
             </h1>
 
-            <nav>
-                <h2>
+            <nav id="Navigation Bar">
+                <p class="NavTitle">
                     Navigation
-                </h2>
-
+                </p>
+    
                 <ul>
-                    <li><a href="../Index.html">Home</a></li>
-                    <li><a href="./BlogMainPage.html">Theory Blog Posts</a></li>
-                    <li><a href="./BlogIndex.html">Theory Archive</a></li>
-                    <li><a href="../Hobby/MainPage.html">Hobby Blog Posts</a></li>
-                    <li><a href="../Hobby/index.html">Hobby Archive</a></li>
-                    <li><a href="../Profile/index.html">Authour Profile</a></li>
+                    <li><a class="active" href="../Index.html">Home</a></li>
+                    <li><a class="active" href="./BlogMainPage.html">Theory Blog Posts</a></li>
+                    <li><a class="active" href="./BlogIndex.html">Theory Archive</a></li>
+                    <li><a class="active" href="../Hobby/MainPage.html">Hobby Blog Posts</a></li>
+                    <li><a class="active" href="../Hobby/index.html">Hobby Archive</a></li>
+                    <li><a class="active" href="../Profile/index.html">Profiles</a></li>
+    
+                    <li><button name="Back Button" onclick="history.back()">Back</button></li>
                 </ul>
-
-                <button name="Back Button" onclick="history.back()">Back</button>
             </nav>
         </header>
 
         <main>
             <article
+                class="acontent"
                 id="Hypertext influence Article"
                 data-index-number="TA5"
                 data-category="Theory Blog Posts"
@@ -131,7 +138,7 @@
                     Perhaps the biggest concern would be that the speed at which information is distributed as well as how society acts within the WWW and adapt to it is becoming increasingly greater than the rate at which we can understand it.
                 </p>
                
-            </article>
+            
 
             <aside>
                 By Ryan Ka Kit Leong
@@ -154,6 +161,8 @@
                     University of Michigan Press, pp. 39-55.
                 </li>
             </ol>
+        
+            </article>
         </main>
     </body>
 </html>

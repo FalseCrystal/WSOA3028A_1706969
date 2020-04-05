@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Interactive Media,Blog,profile,Hobbyist">
-        <meta name="revised" content="WSOA Creative Character Profile, 2020/03/16/">
-        <meta name="author" content="">
-        <meta name="description" content="A user profile">
-        <meta name="viewport" content="width=device-width", initial-scale=1>
-        <meta http-equiv="refresh" content="30">
-        <title>User Profile name</title>                 
+        <section id="meta data">
+            <meta charset="UTF-8">
+            <meta name="keywords" content="Interactive Media,Blog,profile,Hobbyist">
+            <meta name="revised" content="WSOA Creative Character Profile, 2020/03/16/">
+            <meta name="author" content="">
+            <meta name="description" content="A user profile">
+            <meta name="viewport" content="width=device-width", initial-scale=1>
+            <meta http-equiv="refresh" content="30">
+            <title>User Profile name</title>
+        </section>
+
+        <section id="External Files">
+            <link rel="stylesheet" href="/./Styling/style.css" title="Style Guide" type="text/css">
+        </section>
     </head>
     <body>
         <h1>
@@ -16,24 +22,28 @@
         </h1>
 
         <header>
-            <nav>
-                <h2>Navigation</h2>
-
+            <nav id="Navigation Bar">
+                <p class="NavTitle">
+                    Navigation
+                </p>
+    
                 <ul>
-                    <li><a href="../Index.html">Home</a></li>
-                    <li><a href="../Blogs/BlogMainPage.html">Theory Blog Posts</a></li>
-                    <li><a href="../Blogs/BlogIndex.html">Theory Archive</a></li>
-                    <li><a href="../Hobby/MainPage.html">Hobby Blog Posts</a></li>
-                    <li><a href="../Hobby/index.html">Hobby Archive</a></li>
-                    <li><a href="./index.html">Authour Profile</a></li>
+                    <li><a class="active" href="../Index.html">Home</a></li>
+                    <li><a class="active" href="../Blogs/BlogMainPage.html">Theory Blog Posts</a></li>
+                    <li><a class="active" href="../Blogs/BlogIndex.html">Theory Archive</a></li>
+                    <li><a class="active" href="../Hobby/MainPage.html">Hobby Blog Posts</a></li>
+                    <li><a class="active" href="../Hobby/index.html">Hobby Archive</a></li>
+                    <li><a class="active" href="./index.html">Profiles</a></li>
+    
+                    <li><button name="Back Button" onclick="history.back()">Back</button></li>
                 </ul>
-                
-                <button name="Back Button" onclick="history.back()">Back</button>
             </nav>
         </header>
 
         <main>
-            <article id="Profile Details">
+            <article 
+                class="acontent"
+                id="Profile Details">
 
                 <table>
                     <th>
@@ -55,9 +65,10 @@
                
                 <h3>Posts</h3>
 
-                <p>
-                    <ul></ul>
-                </p>
+                <ul>
+                    <li><a href="../Hobby/Explain.html">Current State of the Blog</a></li>
+                    <li><a href="../Hobby/CrossboneReview.html">HG Crossbone Gundam model Review</a></li>
+                </ul>
             </article>            
         </main>
     </body>

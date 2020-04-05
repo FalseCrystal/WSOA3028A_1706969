@@ -12,41 +12,46 @@
             <title>Home Page.</title>
         </section>
 
-        <section id="Imported Scripts">
+        <section id="Scripts">
             <script src="./Scripts/HomePageFunctions.js"></script>
+        </section>
+
+        <section id="External Files">
+            <link rel="stylesheet" href="./Styling/style.css" title="Style Guide" type="text/css">
         </section>
     </head>
     <body>
         <h1>Blog Main Page</h1>
         
-        <nav>
-            <h2>
+        <nav id="Navigation Bar">
+            <p class="NavTitle">
                 Navigation
-            </h2>
+            </p>
 
             <ul>
-                <li><a href="./Index.html">Home</a></li>
-                <li><a href="./Blogs/BlogMainPage.html">Theory Blog Posts</a></li>
-                <li><a href="./Blogs/BlogIndex.html">Theory Archive</a></li>
-                <li><a href="./Hobby/MainPage.html">Hobby Blog Posts</a></li>
-                <li><a href="./Hobby/index.html">Hobby Archive</a></li>
-                <li><a href="./Profile/index.html">Profiles</a></li>
+                <li><a class="active" href="./Index.html">Home</a></li>
+                <li><a class="active" href="./Blogs/BlogMainPage.html">Theory Blog Posts</a></li>
+                <li><a class="active" href="./Blogs/BlogIndex.html">Theory Archive</a></li>
+                <li><a class="active" href="./Hobby/MainPage.html">Hobby Blog Posts</a></li>
+                <li><a class="active" href="./Hobby/index.html">Hobby Archive</a></li>
+                <li><a class="active" href="./Profile/index.html">Profiles</a></li>
+
+                <li><button name="Back Button" onclick="history.back()">Back</button></li>
             </ul>
-            
-            <button name="Back Button" onclick="history.back()">Back</button>
         </nav>
 
-        <h2 id="About">
+        <h3>
             About
-        </h2>
+        </h3>
 
-        <section 
+        <section id="About"
+                 class="content"   
                  data-author="Ryan Ka Kit Leong"
                  data-date-published="2020/03/16"
                  data-time-published="12:00 pm"
                 >
             <p>
-                This website will be primarily (I will get on it i swear) covering content regarding my hobby. I am however getting help
+                This website will be primarily (I will get on it I swear) covering content regarding my hobby. I am however getting help
                 with how websites work and setting it up from an interactive media student. He is currently hosting the website for me 
                 ( it is free real estate), along with his own course work assignment until I am able to do so myself. In the mean time 
                 you can click the button below to previe the content you can eventually expect from me.        

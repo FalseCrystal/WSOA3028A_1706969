@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Interactive Media,Blog,Hobby,Crossbone,Gundam,HG,Review">
-        <meta name="revised" content="WSOA Blog Hobby Crossbone Review, 2020/03/29/">
-        <meta name="author" content="Ryan Ka Kit Leong">
-        <meta name="description" content="A personal review of the HG Crossbone Gundam model">
-        <meta name="viewport" content="width=device-width", initial-scale=1>
-        <meta http-equiv="refresh" content="30">
-        <title>Reflection on Browser wars and the reactive nature to possible problems of new technology.</title>                 
+        <section id="meta data">
+            <meta charset="UTF-8">
+            <meta name="keywords" content="Interactive Media,Blog,Hobby,Crossbone,Gundam,HG,Review">
+            <meta name="revised" content="WSOA Blog Hobby Crossbone Review, 2020/03/29/">
+            <meta name="author" content="Ryan Ka Kit Leong">
+            <meta name="description" content="A personal review of the HG Crossbone Gundam model">
+            <meta name="viewport" content="width=device-width", initial-scale=1>
+            <meta http-equiv="refresh" content="30">
+            <title>Reflection on Browser wars and the reactive nature to possible problems of new technology.</title>
+        </section>
+
+        <section id="External Files">
+            <link rel="stylesheet" href="../Styling/style.css" title="Style Guide" type="text/css">
+        </section>
     </head>
     <body>
         <header>
@@ -21,26 +27,27 @@
                       title="Crossbone Gundam Profile"
                       >    
 
-            <nav>
-                <h2>
+            <nav id="Navigation Bar">
+                <p class="NavTitle">
                     Navigation
-                </h2>
-
+                </p>
+    
                 <ul>
-                    <li><a href="../Index.html">Home</a></li>
-                    <li><a href="../Blogs/BlogMainPage.html">Theory Blog Posts</a></li>
-                    <li><a href="../Blogs/BlogIndex.html">Theory Archive</a></li>
-                    <li><a href="./MainPage.html">Hobby Blog Posts</a></li>
-                    <li><a href="./index.html">Hobby Archive</a></li>
-                    <li><a href="../Profile/index.html">Authour Profile</a></li>
+                    <li><a class="active" href="../Index.html">Home</a></li>
+                    <li><a class="active" href="../Blogs/BlogMainPage.html">Theory Blog Posts</a></li>
+                    <li><a class="active" href="../Blogs/BlogIndex.html">Theory Archive</a></li>
+                    <li><a class="active" href="./MainPage.html">Hobby Blog Posts</a></li>
+                    <li><a class="active" href="./index.html">Hobby Archive</a></li>
+                    <li><a class="active" href="../Profile/index.html">Profiles</a></li>
+    
+                    <li><button name="Back Button" onclick="history.back()">Back</button></li>
                 </ul>
-                
-                <button name="Back Button" onclick="history.back()">Back</button>
             </nav>
         </header>
 
         <main>
             <article
+                class="acontent"
                 id="Crossbone Review"
                 data-index-number="HA2"
                 data-category="Hobby Blog Posts"

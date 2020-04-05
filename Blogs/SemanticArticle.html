@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Interactive Media,Blog,Theory,Semantic,Markup, semantic-markup">
-        <meta name="revised" content="WSOA Blog Semantic Markup Article, 2020/03/16/">
-        <meta name="author" content="Ryan Ka Kit Leong">
-        <meta name="description" content="An article explaining semantic markup and discussing its importance">
-        <meta name="viewport" content="width=device-width", initial-scale=1>
-        <meta http-equiv="refresh" content="30">
-        <title>The importance of Semantic Markup.</title>                 
+        <section id="meta data">
+            <meta charset="UTF-8">
+            <meta name="keywords" content="Interactive Media,Blog,Theory,Semantic,Markup, semantic-markup">
+            <meta name="revised" content="WSOA Blog Semantic Markup Article, 2020/03/16/">
+            <meta name="author" content="Ryan Ka Kit Leong">
+            <meta name="description" content="An article explaining semantic markup and discussing its importance">
+            <meta name="viewport" content="width=device-width", initial-scale=1>
+            <meta http-equiv="refresh" content="30">
+            <title>The importance of Semantic Markup.</title> 
+        </section>
+
+        <section id="External Files">
+            <link rel="stylesheet" href="../Styling/style.css" title="Style Guide" type="text/css">
+        </section>
     </head>
+    
     <body>
         <header>  
             <h1>
                 The importance of Semantic Markup
             </h1>
 
-            <nav>
-                <h2>
+            <nav id="Navigation Bar">
+                <p class="NavTitle">
                     Navigation
-                </h2>
-
+                </p>
+    
                 <ul>
-                    <li><a href="../Index.html">Home</a></li>
-                    <li><a href="./BlogMainPage.html">Theory Blog Posts</a></li>
-                    <li><a href="./BlogIndex.html">Theory Archive</a></li>
-                    <li><a href="../Hobby/MainPage.html">Hobby Blog Posts</a></li>
-                    <li><a href="../Hobby/index.html">Hobby Archive</a></li>
-                    <li><a href="../Profile/index.html">Authour Profile</a></li>
+                    <li><a class="active" href="../Index.html">Home</a></li>
+                    <li><a class="active" href="./BlogMainPage.html">Theory Blog Posts</a></li>
+                    <li><a class="active" href="./BlogIndex.html">Theory Archive</a></li>
+                    <li><a class="active" href="../Hobby/MainPage.html">Hobby Blog Posts</a></li>
+                    <li><a class="active" href="../Hobby/index.html">Hobby Archive</a></li>
+                    <li><a class="active" href="../Profile/index.html">Profiles</a></li>
+    
+                    <li><button name="Back Button" onclick="history.back()">Back</button></li>
                 </ul>
-
-                <button name="Back Button" onclick="history.back()">Back</button>
             </nav>
         </header>
 
         <main>
             <article
+                class="acontent"
                 id="Semantic Markup Article"
                 data-index-number="TA4"
                 data-category="Theory Blog Posts"
@@ -63,7 +71,7 @@
                     a webpage as well as how it's structured. This standardisation makes a web page more accessible and therefore 
                     improves the efficiency of the web as well as the development of web services.
                 </p>
-            </article>
+            
 
             <aside>
                 By Ryan Ka Kit Leong
@@ -80,6 +88,8 @@
                     </a>
                 </li>
             </ol>
+        
+            </article>
         </main>
     </body>
 </html>
