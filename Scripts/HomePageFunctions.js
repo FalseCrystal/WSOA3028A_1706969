@@ -4,6 +4,6 @@ function revealHobby(){
 
     for(let i=0;i<=images.length;i++){
 
-        images[i].src = images[i].getAttribute('data-src');
+        images[i].src = images[i].getAttribute('src');
     }
 }
