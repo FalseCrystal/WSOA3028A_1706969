@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Interactive Media,Blog,Theory,external,dependancies">
+        <meta name="revised" content="WSOA Blog External Dependancies, 2020/06/29/">
+        <meta name="author" content="Ryan Ka Kit Leong">
+        <meta name="description" content="A blog post explaining the use of external dependancies on this website and a discussion of it's ethics">
+        <meta name="viewport" content="width=device-width", initial-scale=1>
+        <meta http-equiv="refresh" content="30">
+        <title>External Dependancies</title>
+        
+        <link rel="stylesheet" href="../Styling/style.css" title="Style Guide" type="text/css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>
+              External Dependancies
+            </h1>
+
+            <nav id="Navigation Bar">
+                <p class="NavTitle">
+                    Navigation
+                </p>
+    
+                <ul>
+                    <li><a class="active" href="../Index.html">Home</a></li>
+                    <li><a class="active" href="./BlogMainPage.html">Theory</a></li>
+        
+                    <li><a class="active" href="../Hobby/MainPage.html">Hobby</a></li>
+                    
+                    <li><a class="active" href="../Profile/index.html">Profiles</a></li>
+    
+                    <li><button name="Back Button" onclick="history.back()">Back</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article
+                class="acontent"
+                id="External Dependancies"
+                data-index-number="TA10"
+                data-category="Theory Blog Posts"
+                data-author="Ryan Ka Kit Leong"
+                data-time-published="22:07pm"
+                data-date-published="29 June 2020"
+                    >
+
+                <p id="Introduction Paragraph">
+                    In the same way that the availability of resources and technology has an effect on how we interact with and see the world around us
+                    , different technologies can also be dependent on the situation of their use as well as other tools and 
+                    factors that are connected to them. This article explains the use of Bootstrap, 
+                    an expansive js and css library, on this website. 
+                    It also discusses the rationale behind its use from a technical perspective and what it can contribute to the 
+                    creative side of the website. 
+                    Lastly, there will be a discussion of external dependencies like Bootstrap with relation to the 
+                    Theoretical blog posts of this site.
+                </p>
+        
+                <p id="Bootstrap">
+                    Bootstrap is a large collection of premade css and js resources that help in creating a responsive website using mostly 
+                    html to make use of while being customizable. Bootstrap also has documentation of how to use their various features on their website. 
+                    It’s important to note that Bootstrap’s use is dependent on jquery and popper.js. 
+                    While you can access and use the Bootstrap libraries via their cached content delivery network (cdn), 
+                    you can’t view or customize different scripts or style guides without storing them locally.
+                </p>
+
+                <p id="Implementation">
+                    In this context, Bootstrap was used to implement a carousel system that displays title images from the hobby blog posts 
+                    that act as a link to their respective webpages. 
+                    The intended use for this was to showcase a number of random blog posts on the website to catch a users attention to the different topics 
+                    it discusses. However it was restricted to the hobby posts as none of the theory articles had a title image to represent them. 
+                    While I could have implemented the carousel myself using html, css and js, Bootstrap also provides a number of other tools and 
+                    elements that can help build a website. These include elements like forms or grids that help in building a 
+                    comment section for the different blog posts and articles as well as many different color schemes that could brighten my dull looking site.
+                    <br><br>
+                    While Bootstrap provides a number of useful prebuilt components and code that enables for  
+                    faster website development while being a more available tool to less experienced developers there are a few concerns to note. 
+                    Bootstrap’s css and js components work in tandem and are dependent on each other. 
+                    This means that there may be overlap in cases where you are making your own style sheet like I did on this site's main page. 
+                    This is more an oversight on my part however as I didn’t use Bootstrap and its various tools and presets from the beginning.
+                </p>
+
+                <p id="Theory">
+                    While Bootstrap makes the process of developing a website easier, 
+                    there’s also the concern that it serves to widen knowledge and skill gaps between content creators who 
+                    know the inner workings of these tools at a programming level versus those who only know how to make use of these libraries. 
+                    This brings the risk of possible abuse in which features we are unaware and 
+                    may have unethical implication find their way into content that is integrated into our daily lives, 
+                    where we may be unable to identify these problems before it’s too late. 
+                    This is reinforced by the use of cdn links that import scripts via the internet rather than storing locally, 
+                    meaning that you can’t view or customize the scripts in your chosen editor. 
+                    Furthermore, after taking a look at their css style sheet, 
+                    I can say without a doubt that it is not meant to be viewed or edited by other people and definitely not reader friendly. 
+                    For the most part, using Bootstrap is more about learning to use their preset components and scripts than learning css and js coding. 
+                    Bootstrap does however have its own documentation that helps facilitate learning how to use and customize it. Additionally, 
+                    one would still need to be experienced in html when making use of this framework in order to create an accessible and responsive website. 
+                </p>
+
+                <p id="Conclusion">
+                    Bootstrap is indeed a helpful and powerful frame-work that makes web development easier and more accessible to a wider range of people. 
+                    However, we need to consider the possibility of disempowerment when lowering the barrier of entry into possibly complex fields rather than 
+                    endeavoring to raise the average skill levels to the point where the majority of 
+                    people are aware of the capabilities and implications of design in technologies and services that are a major part of their daily lives.
+                </p>
+
+
+            <aside>
+                By Ryan Ka Kit Leong
+            </aside>
+
+            
+        
+            </article>
+        </main>
+    </body>
+</html>
