@@ -11,9 +11,14 @@
         <title>Home Page.</title>
 
         <script src="./Scripts/HomePageFunctions.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
+        <link rel="stylesheet" href="./Styling/bootstrap.min.css" title="Style Guide" type="text/css">
         <link rel="stylesheet" href="./Styling/style.css" title="Style Guide" type="text/css">
- 
+        
+
     </head>
     <body>
         <h1>Student Weeb Alliance</h1>
@@ -59,6 +64,36 @@
                 <a href="./Hobby/MainPage.html"><button>Hobby</button></a>
             </p>
                       
+        </section>
+
+        <section id="gallery" class="carousel slide" data-ride="carousel">
+
+            
+            <ul class="carousel-indicators">
+              <li data-target="#gallery" data-slide-to="0" class="active"></li>
+              <li data-target="#gallery" data-slide-to="1"></li>
+              <li data-target="#gallery" data-slide-to="2"></li>
+            </ul>
+            
+           
+            <section class="carousel-inner">
+              <figure class="carousel-item active">
+                <img src="./Images/Zeta.jpeg" alt="Zeta Plus" width="50%" >
+              </figure>
+              <figure class="carousel-item">
+                <img src="./Images/MK2.jpeg" alt="MK2" width="50%" >
+              </figure>
+              <figure class="carousel-item">
+                <img src="./Images/CrossboneProfile.jpeg" alt="Crossbone" width="50%">
+              </figure>
+            </section>
+            
+            <a class="carousel-control-prev" href="#gallery" data-slide="prev">
+              <section class="carousel-control-prev-icon"></section>
+            </a>
+            <a class="carousel-control-next" href="#gallery" data-slide="next">
+              <section class="carousel-control-next-icon"></section>
+            </a>
         </section>
 
     </body>

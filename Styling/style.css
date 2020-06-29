@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding-top:3%;
+    background-color: slategray;
 }
 
 nav {
@@ -12,6 +13,7 @@ nav {
     padding: 0.5% 5%;
     box-sizing: border-box;
     transition: .3s;
+    color: darkblue;
     background: gold;
   }
 
@@ -57,7 +59,7 @@ nav ul li a:focus{
 
 nav ul li button{
     box-sizing: content-box;
-    width: 150%;
+    width: 100%;
     height: 100%;
     color: darkblue;
     background-color: gray;
@@ -147,6 +149,8 @@ section.content{
     text-align: justify;
     font-size: 20px;
   }
+
+
 
 article .acontent{
     margin-top: 80px;
